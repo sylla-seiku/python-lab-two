@@ -1,4 +1,19 @@
-# this practice is based on if one has good credit they pay one price if not they pay another
+# Learning About Logical Operators
+has_high_income = False
+has_good_credit = True
+
+if has_high_income and has_good_credit: # with the "and" operator bth conditions have to be true to run the message. but not with "or"
+    print("Eligible for loan")
+
+has_good_credit = True
+has_criminal_record = False
+
+if has_good_credit and not has_criminal_record: #"and not" operator 
+    print("Eligible for loan")
+
+
+'''
+# practice is based on if one has good credit they pay one price if not they pay another using "if statments"
 price = 1000000
 has_good_credit = True
 
@@ -31,3 +46,4 @@ else:
     print("It's a lovely day")
     
 print("Enjoy your day")
+'''
