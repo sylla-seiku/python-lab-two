@@ -1,3 +1,24 @@
+#learning about Comparison Operators
+temperature = 35
+
+if temperature > 30:
+    print("It's a hot day.")
+else:
+    print("It's not a hot day.")
+
+#practice 
+name = "Seiku Sillah"
+
+if len(name) < 3:
+    print("Name must be at least 3 characters.")
+elif len(name) > 50:
+    print("Name must be a maximum of 50 characters.")
+else:
+    print("Name looks good!")
+
+
+
+'''
 # Learning About Logical Operators
 has_high_income = False
 has_good_credit = True
@@ -12,7 +33,7 @@ if has_good_credit and not has_criminal_record: #"and not" operator
     print("Eligible for loan")
 
 
-'''
+
 # practice is based on if one has good credit they pay one price if not they pay another using "if statments"
 price = 1000000
 has_good_credit = True
